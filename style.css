@@ -32,10 +32,16 @@ form{
 }
 #secondNumber{
     position: absolute;
-    top: 0;
-    left: 20px;
+    width: auto;
     color: white;
-    font-size: 1rem;
+    border: none;
+    background-color: #080808;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 20px;
+    outline: none;
+    font-size: 1.2rem;
 }
 #firstNumber{
     position: absolute;
@@ -44,7 +50,9 @@ form{
     border: none;
     background-color: #080808;
     bottom: 0;
-    left: 20px;
+    right: 0;
+    left: 0;
+    padding-left: 20px;
     outline: none;
     font-size: 1.2rem;
 }
@@ -55,6 +63,7 @@ form{
     grid-template-rows: repeat(5, 60px);
     padding: 20px;
     gap: 16px;
+    
 }
 #delete{
     grid-row: 1;
@@ -67,6 +76,9 @@ form{
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.82);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.82);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.82);
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 .button:hover{
     background-color: rgb(37, 37, 212);
