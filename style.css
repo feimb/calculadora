@@ -83,3 +83,15 @@ form{
 .button:hover{
     background-color: rgb(37, 37, 212);
 }
+@media (max-width: 640px) {
+    form{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .calculadora{
+        margin-top: 0;
+        width: 100%;
+        
+    }
+}
