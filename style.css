@@ -1,9 +1,11 @@
+/* general */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+/* calculadora */
 form{
     width: 100%;
     height: 100vh;
@@ -24,12 +26,14 @@ form{
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.82);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.82);
 }
+/* pantalla */
 .display{
     position: relative;
     width: 100%;
     height: 60px;
     background-color: #080808;
 }
+
 #secondNumber{
     position: absolute;
     width: auto;
@@ -56,6 +60,7 @@ form{
     outline: none;
     font-size: 1.2rem;
 }
+/* botones */
 .buttons{
     outline: none;
     display: grid;
